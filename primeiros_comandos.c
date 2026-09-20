@@ -17,7 +17,7 @@ int main()
 
     printf("Entre com um valor: ");
     scanf("%d", &numero1);
-	printf("O numero digitado foi: ", &numero1);
+	printf("O numero digitado foi: %d\n", numero1);
 	
 	int numero2;
     float nota;

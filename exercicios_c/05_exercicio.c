@@ -1,0 +1,1 @@
+/* e) Desenvolva um algoritmo que receba um número inteiro e informe se ele é múltiplo de 5. */
