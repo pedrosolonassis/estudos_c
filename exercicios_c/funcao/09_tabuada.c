@@ -1,0 +1,2 @@
+// Crie uma função chamada mostrarTabuadaque receba um número inteiro e exiba sua tabuada de 1 a 10.
+// No programa principal, leia o número informado pelo usuário e chame a função para apresentar a tabuada completa.
