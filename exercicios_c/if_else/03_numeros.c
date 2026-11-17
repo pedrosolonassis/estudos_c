@@ -24,8 +24,6 @@ int main() {
     printf("Digite o valor de C: ");
     scanf("%d", &c);
 
-    printf("\n--- RESULTADOS ---\n");
-
     // 2. Determinar o Maior valor
     if (a >= b && a >= c) {
         printf("Maior valor: %d\n", a);
