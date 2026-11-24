@@ -4,6 +4,20 @@
 
 #include <stdio.h>
 
-int main () {
+float celsiusParaFahrenheit(float celsius){
+    return (9 * celsius) / 5 + 32;
+}
 
+int main(){
+    float celsius;
+    float fahrenheit;
+
+    printf("Digite a temperatura em graus Celsius: ");
+    scanf("%f", &celsius);
+
+    fahrenheit = celsiusParaFahrenheit(celsius);
+
+    printf("%.2f C = %.2f F\n", celsius, fahrenheit);
+
+    return 0;
 }

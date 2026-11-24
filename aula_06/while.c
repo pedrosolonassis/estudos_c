@@ -62,7 +62,7 @@ int main(){
         if(srcmp(usuario, "admin") != 0 || strcmp(senha, "1234") !=0) {
             printf("Usuário ou senha incorretos. Tente novamente. \n\n");
         }
-    } while(strcmp(usuario, "admin" != 0))
+    } while(strcmp(usuario, "admin" != 0));
 }
 
 // imprimir de 1 até 20
